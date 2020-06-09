@@ -8,7 +8,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+  <remote fetch="https://source.codeaurora.org/external/imx" name="fsl-release" />
 
   <project remote="yocto" revision="7e11efef59c3102948d3eafe5b136c493deee3b5" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="a6b95df4d7ab122f1e5b7632e2273b75f853af4b" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
